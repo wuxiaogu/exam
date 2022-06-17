@@ -20,3 +20,8 @@ npm run build:dir
 ```
 
 ---
+
+![image](https://github.com/wuxiaogu/exam/raw/main/images/1.png)
+![image](https://github.com/wuxiaogu/exam/raw/main/images/2.png)
+![image](https://github.com/wuxiaogu/exam/raw/main/images/3.png)
+![image](https://github.com/wuxiaogu/exam/raw/main/images/6.png)
