@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>打印</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    <style type="text/css">
+      @media print {
+        .print-hide{
+          display: none;
+        }
+      }
+      
+      body {
+        font-size: 10px;
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+      }
+
+      p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+
+
+    </style>
+</head>
+<body>
+    <a href="javascript:;" id="print" class="print-hide">打印</a>
+    <div id="content"></div>
+    <script>
+      var { ipcRenderer } = require("electron");
+      console.log(ipcRenderer);
+      ipcRenderer.on("print-to-pdf", (event, content) => {
+        console.log(content)
+        jQuery("#content").html(content);
+        setTimeout(() => { 
+            ipcRenderer.send("ready-print-to-pdf"); 
+        }, 1000);
+      });
+      // 打印
+      jQuery("#print").click(function(){
+        window.print();
+      })
+    </script>
+</body>
+</html>

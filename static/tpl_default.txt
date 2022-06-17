@@ -1,0 +1,64 @@
+<h3 style="text-align: center;">{exam_name}&nbsp;准考证</h3>
+<table style="border-collapse: collapse; width: 100%; height: 10px;" border="1">
+<tbody>
+<tr style="height: 0px;">
+<td style="width: 0px; height: 0px; text-align: left;" align="center" valign="top" width="156">准考证号</td>
+<td style="width: 0px; height: 0px;" colspan="3" valign="top">{user_admission_no}</td>
+<td style="width: 0px; height: 10px;" rowspan="4" valign="top" width="156">{user_pic}</td>
+</tr>
+<tr style="height: 10px;">
+<td style="height: 10px; width: 0px; text-align: left;" align="center" valign="top" width="156">姓名</td>
+<td style="height: 10px; width: 0px;" colspan="3" valign="top">{user_name}</td>
+</tr>
+<tr style="height: 0px;">
+<td style="height: 0px; width: 0px; text-align: left;" align="center" valign="top">身份证号</td>
+<td style="height: 0px; width: 0px;" colspan="3" align="left" valign="top">{user_idcard}</td>
+</tr>
+<tr style="height: 0px;">
+<td style="height: 0px; width: 0px; text-align: left;" align="center" valign="top" width="156">报考岗位</td>
+<td style="height: 0px; width: 0px;" colspan="3" valign="top">{user_pos_name}</td>
+</tr>
+<tr style="height: 0px;">
+<td style="height: 0px; width: 0px; text-align: left;" align="center" valign="top" width="156">考点</td>
+<td style="width: 0px; height: 0px;" colspan="4" valign="top">{user_location_name}</td>
+</tr>
+<tr style="height: 0px;">
+<td style="width: 0px; height: 0px; text-align: left;" align="center" valign="top" width="156">考点地址</td>
+<td style="width: 0px; height: 0px;" colspan="4" valign="top">{user_location_addr}</td>
+</tr>
+<tr style="height: 0px;">
+<td style="height: 0px; width: 0px; text-align: left;" align="center" valign="top" width="156">考场号</td>
+<td style="width: 0px; height: 0px;" valign="top" width="156">{user_room_no}</td>
+<td style="width: 0px; height: 0px;" align="center" valign="top" width="156">座位号</td>
+<td style="width: 0px; height: 0px;" colspan="2" valign="top" width="156">{user_seat_no}</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<table style="border-collapse: collapse; width: 100%; height: 10px;" border="1">
+<tbody>
+<tr>
+<td style="text-align: center;" align="center" valign="top" width="275">考试科目</td>
+<td style="text-align: center;" align="center" valign="top" width="275">考试日期</td>
+<td style="text-align: center;" align="center" valign="top" width="275">考试起止时间</td>
+</tr>
+<tr>
+<td style="text-align: center;" valign="top" width="275">1</td>
+<td style="text-align: center;" valign="top" width="275">5月5日</td>
+<td style="text-align: center;" valign="top" width="275">2:00-3:00</td>
+</tr>
+</tbody>
+</table>
+<h5 style="text-align: center;"><br /><span style="font-size: 18px;"><strong>考&nbsp;&nbsp;场&nbsp;&nbsp;规&nbsp;&nbsp;则</strong></span></h5>
+<p>1.自觉服从考试工作人员管理，不得以任何理由妨碍考试工作人员履行职责，不得扰乱考场及其他考试工作地点的秩序。</p>
+<p>2.每科考前20分钟凭准考证和有效身份证件(限有效期内的居民身份证)进入考场对号入座，并将身份证件和准考证放在考桌左上角。</p>
+<p>3.严格按照规定携带文具（考生需自备橡皮、2B铅笔、钢笔或签字笔等考试工具），开考后不得私自传递任何物品。</p>
+<p>4.除规定可携带的文具外，严禁将各种电子、通信、计算、存储或其他设备带至座位。已带入考场的须关闭电源并放在指定位置。</p>
+<p>5.领到试卷、答题卡后，应在指定位置和规定时间内准确、清楚地填、涂姓名、准考证号、科目(试卷)代码等。考试开始信号发出后方可答题。</p>
+<p>6.不得要求监考人员解释试题，如遇试卷分发错误及字迹不清、页码序号不对或答题卡有折皱、污点等问题，应立即举手询问。</p>
+<p>7.迟到30分钟后不准进入考点参加当科目考试。交卷出场时间原则上不得早于每科目考试结束前30分钟。交卷出场后不得再进场续考，也不得在考场附近逗留或交谈。</p>
+<p>8.严格按照试卷、答题卡上的要求作答，未按要求作答的，按零分处理。</p>
+<p>9.在考场内须保持安静，不准吸烟、旁窥、抄袭或有意让他人抄袭;不准将试卷、答题卡或草稿纸带出考场。</p>
+<p>10.考试结束信号发出后应立即停止答题，在监考人员依序收齐试卷、答题卡、草稿纸后，根据监考人员指令依次退出考场。</p>
+<p>11.如不遵守考场规则，不服从考试工作人员管理，有违纪违规行为的，将按照国家和省有关规定严肃处理，并将违纪违规事实记入人事考试违纪违规数据库。</p>
+<p>&nbsp;</p>
