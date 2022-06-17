@@ -1,4 +1,4 @@
-# easy-invoices
+# 考场编排客户端
 
 > An electron-vue sqlite3 project
 
